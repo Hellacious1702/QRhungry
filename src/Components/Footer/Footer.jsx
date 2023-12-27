@@ -15,7 +15,7 @@ const Footer = () => {
                     <div className="Footer-Menu-Wrapper">
                         <h3>Platform</h3>
                         <div className="Footer-Menus">
-                            <Link to="">Home</Link>
+                            <Link to="/Home">Home</Link>
                             <a href="">Features</a>
                             <a href="">What's new</a>
                             <a href="">Donate</a>

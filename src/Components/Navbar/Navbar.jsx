@@ -11,7 +11,7 @@ const Navbar = () => {
                 <h1>QRhungry</h1>
             </div>
             <div className="Nav-Menu-Wrapper">
-                <Link to="/">Home</Link>
+                <Link to="/Home">Home</Link>
                 <Link to="/About">About</Link>
                 <a href="https://github.com/Hellacious1702" target='_blank'>Github</a>
                 <a href="">Donate</a>
