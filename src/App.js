@@ -13,10 +13,11 @@ function App() {
     <BrowserRouter>
       <Navbar/>
         <Routes>
-          <Route path='/Home' element={<HomeLayout/>}/>
+          <Route path='/QRhungry' element={<HomeLayout/>}/>
           <Route path='Terms' element={<Termsandconditions/>}/>
           <Route path='PrivacyPolicy' element={<PrivacyPolicy/>}/>
           <Route path='About' element={<About/>}/>
+          <Route path='Testing' element={<HomeLayout/>}/>
         </Routes>
       <Footer/>
     </BrowserRouter>
