@@ -6,3 +6,18 @@
     box-sizing: border-box;
     font-family: 'Urbanist', sans-serif;
 }
+
+.Qrcard-Main-Wrapper{
+    background: #f8f7fd;
+    padding: 2% 4%;
+}
+
+.Qrcard-Section{
+    display: flex;
+    justify-content: center;
+}
+
+.QrCodeGenerator{
+    background: rgba(254,254,254,255);
+    padding: 2em;
+}

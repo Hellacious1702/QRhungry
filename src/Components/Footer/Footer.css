@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.Footer-Main-Wrapper{
+    background-color: #f8f7fd;
+    padding: 4% 4%;
+    border-top: 2px solid #eeeeef;
+}
+
+.Footer-Brand h1{
+    font-size: 26px;
+}
+
+.Footer-Section{
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+
+.Footer-Section1-Wrapper , .Footer-Section2-Wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Footer-Terms{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.Footer-Terms a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.Footer-Copyright{
+    color: #9d9d9f;
+}
+
+.Footer-Menu-Wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.Footer-Menus{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.Footer-Menu-Wrapper h3{
+    font-size: 23px;
+}
+
+.Footer-Menus a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.Footer-Menu-Main-Wrapper{
+    display: flex;
+    gap: 4em;
+}

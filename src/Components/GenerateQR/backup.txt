@@ -1,0 +1,22 @@
+<div className='GenerateQR-Main-Wrapper'>
+      <section className='GenerateQR-Section'>
+        <div className="GenerateQR-Input-Wrapper">
+          <div className="GenerateQR-Input">
+            <p>Text</p>
+            <input type="text" onChange={(event) => {setUserInput(event.target.value)}} placeholder='Enter Your Text'/>
+          </div>
+          <div className="GenerateQR-Input">
+            <p>Size</p>
+            <select onChange={(event) => {setUserSize(event.target.value)}}>
+                <option value="400x400">400x400</option>
+                <option value="200x200">200x200</option>
+                <option value="300x300">300x300</option>
+                <option value="500x500">500x500</option>
+            </select>
+          </div>
+        </div>
+        <div className="GenerateQR-GeneratedQR-Wrapper">
+          <img src={QrAPI}/>
+        </div>
+      </section>
+    </div>

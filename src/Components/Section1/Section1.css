@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.Section1-Main-Wrapper{
+    background-color: #f8f7fd;
+    padding: 2% 4%;
+}
+
+.Section1-Content-Wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.Section1-Heading h1{
+    text-align: center;
+    font-size: 4em;
+}
+
+.Section1-Heading h1 span{
+    color: #0140d9;
+}
+
+.Section1-Paragraph p{
+    font-size: 1em;
+    text-align: center;
+    max-width: 600px;
+    color: #9d9d9f;
+}
+
+.Section1-Paragraph p span{
+    cursor: pointer;
+}
+
+.Section1-Buttons{
+    margin-bottom: 4em;
+}
+
+.Section1-Buttons button{
+    outline: none;
+    border: none;
+    padding: 1em 2em;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#GetStarted{
+    margin-right: 25px;
+    background: #023edc;
+    color: #fcfcff;
+}
+
+#WatchDemo{
+    color: #043ddb ;
+    background-color: #ffffff;
+    border: 1px solid #043ddb;
+}
