@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/QRhungry/static/css/main.5195de55.css",
-    "main.js": "/QRhungry/static/js/main.78a1bba1.js",
+    "main.css": "/QRhungry/static/css/main.4d6bffd0.css",
+    "main.js": "/QRhungry/static/js/main.9678f1e2.js",
     "static/js/787.2363a83c.chunk.js": "/QRhungry/static/js/787.2363a83c.chunk.js",
+    "static/media/QRhungryLogo.png": "/QRhungry/static/media/QRhungryLogo.c5211708629bdeeeb241.png",
     "static/media/instagram.png": "/QRhungry/static/media/instagram.b79433a6d7925494f44f.png",
     "static/media/whatsapp.png": "/QRhungry/static/media/whatsapp.fdd4b7007148bcf6ce48.png",
     "static/media/twitter.png": "/QRhungry/static/media/twitter.8e65601e69067aadfe55.png",
     "static/media/youtube.png": "/QRhungry/static/media/youtube.4ad78c4004874a182b12.png",
     "index.html": "/QRhungry/index.html",
-    "main.5195de55.css.map": "/QRhungry/static/css/main.5195de55.css.map",
-    "main.78a1bba1.js.map": "/QRhungry/static/js/main.78a1bba1.js.map",
+    "main.4d6bffd0.css.map": "/QRhungry/static/css/main.4d6bffd0.css.map",
+    "main.9678f1e2.js.map": "/QRhungry/static/js/main.9678f1e2.js.map",
     "787.2363a83c.chunk.js.map": "/QRhungry/static/js/787.2363a83c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5195de55.css",
-    "static/js/main.78a1bba1.js"
+    "static/css/main.4d6bffd0.css",
+    "static/js/main.9678f1e2.js"
   ]
 }
