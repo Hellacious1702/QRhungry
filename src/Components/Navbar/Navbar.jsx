@@ -3,12 +3,14 @@ import './Navbar.css'
 
 import { Link } from 'react-router-dom';
 
+import QRhungryLogo from './Assets/Logo/QRhungryLogo.png'
+
 const Navbar = () => {
   return (
     <div className='Nav-Main-Wrapper'>
         <section className='Nav-Section'>
             <div className="Nav-Brand">
-                <h1>QRhungry</h1>
+                <img src={QRhungryLogo} />
             </div>
             <div className="Nav-Menu-Wrapper">
                 <Link to="/QRhungry">Home</Link>

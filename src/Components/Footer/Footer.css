@@ -40,6 +40,10 @@
     cursor: pointer;
 }
 
+.Footer-Brand img{
+    height: 6em;
+}
+
 .Footer-Copyright{
     color: #9d9d9f;
 }

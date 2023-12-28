@@ -9,7 +9,7 @@
 
 .Nav-Main-Wrapper{
     background-color: #f8f7fd;
-    padding: 2% 4%;
+    padding: 1% 4%;
     border-bottom: 2px solid #eeeeef;
 }
 
@@ -17,6 +17,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.Nav-Brand img{
+    height: 4em;
 }
 
 .Nav-Menu-Wrapper a{

@@ -21,12 +21,11 @@ const GenerateQR = () => {
     const [userBGColor,setUserBGColor] = useState("fff");
     const [userMargin,setUserMargin] = useState("0");
     const [destination,setDestination] = useState("");
+    const [destinationTilte,setDestinationTitle] = useState("Website URL");
+    const [inputType,setInputType] = useState("Text");
 
     let QrAPI = `https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=${destination}${userInput}&color=${userColor}&bgcolor=${userBGColor}&margin=${userMargin}`;
     let QrAPIDownload = `https://api.qrserver.com/v1/create-qr-code/?size=${userSize}&data=${destination}${userInput}&color=${userColor}&bgcolor=${userBGColor}&margin=${userMargin}&download=1`
-
-    let InstagramQRAPI = `https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=https://www.instagram.com/${userInput}&color=${userColor}&bgcolor=${userBGColor}&margin=${userMargin}`
-    let InstagramQrAPIDownload = `https://api.qrserver.com/v1/create-qr-code/?size=${userSize}&data=https://www.instagram.com/${userInput}&color=${userColor}&bgcolor=${userBGColor}&margin=${userMargin}&download=1`
 
   return (
     <div className='GenerateQR-Main-Wrapper' >
@@ -36,28 +35,27 @@ const GenerateQR = () => {
             <div className="GenerateQR-Destination">
               <p>Destination</p>
               <div className="Detination-Buttons-Wrapper">
-                  <button onClick={() => {setDestination("")}} className='Detination-Choose-Buttons'><img src={LinkIcon} /></button>
-                  <button onClick={() => {setDestination("https://www.instagram.com/")}} className='Detination-Choose-Buttons'><img src={InstagramIcon} /></button>
-                  <button onClick={() => {setDestination("https://twitter.com/")}} className='Detination-Choose-Buttons'><img src={TwitterIcon} /></button>
-                  <button onClick={() => {setDestination("https://wa.me/91")}} className='Detination-Choose-Buttons'><img src={WhatsappIcon} /></button>
-                  <button onClick={() => {setDestination("mailto:")}} className='Detination-Choose-Buttons'><img src={MailIcon} /></button>
-                  <button onClick={() => {setDestination("+91")}} className='Detination-Choose-Buttons'><img src={PhoneIcon} /></button>
-                  <button onClick={() => {setDestination("")}} className='Detination-Choose-Buttons'><img src={YoutubeIcon} /></button>
-                  <button onClick={() => {setDestination("")}} className='Detination-Choose-Buttons'><img src={MessageIcon} /></button>
+                  <button onClick={() => {setDestination("");setDestinationTitle("Website URL");setInputType("Text")}} className='Detination-Choose-Buttons'><img src={LinkIcon} /></button>
+                  <button onClick={() => {setDestination("https://www.instagram.com/");setDestinationTitle("Instagram Profile");setInputType("Text")}} className='Detination-Choose-Buttons'><img src={InstagramIcon} /></button>
+                  <button onClick={() => {setDestination("https://twitter.com/");setDestinationTitle("Twitter Profile");setInputType("Text")}} className='Detination-Choose-Buttons'><img src={TwitterIcon} /></button>
+                  <button onClick={() => {setDestination("https://wa.me/91");setDestinationTitle("Whatsapp Number");setInputType("number")}} className='Detination-Choose-Buttons'><img src={WhatsappIcon} /></button>
+                  <button onClick={() => {setDestination("mailto:");setDestinationTitle("Mail Address");setInputType("email")}} className='Detination-Choose-Buttons'><img src={MailIcon} /></button>
+                  <button onClick={() => {setDestination("+91");setDestinationTitle("Phone Number");setInputType("number")}} className='Detination-Choose-Buttons'><img src={PhoneIcon} /></button>
+                  <button onClick={() => {setDestination("");setDestinationTitle("Youtube URL");setInputType("Text")}} className='Detination-Choose-Buttons'><img src={YoutubeIcon} /></button>
+                  <button onClick={() => {setDestination("");setDestinationTitle("Message");setInputType("Text")}} className='Detination-Choose-Buttons'><img src={MessageIcon} /></button>
                 </div>
             </div>
           </div>
 
           <div className="GenerateQR-Column">
             <div className="GenerateQR-Input">
-            <p>Enter Your Website URL</p>
-            <input type="text" onChange={(event) => {setUserInput(event.target.value)}} placeholder='Enter Your Text'/>
+            <p>Enter Your {destinationTilte}</p>
+            <input type={inputType} onChange={(event) => {setUserInput(event.target.value)}} placeholder="Enter Here"/>
             </div>
             <div className="GenerateQR-Output" id='OutputQR-Wrappper'>
               <p>Live Preview</p>
               <div className="OutputQR-Image-Wrapper">
                 <img src={QrAPI} id='OutputQR'/>
-                {/* <h1>{QrAPI}</h1> */}
               </div>
             </div>
           </div>

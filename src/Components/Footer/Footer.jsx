@@ -3,13 +3,15 @@ import './Footer.css'
 
 import { Link } from 'react-router-dom'
 
+import QRhungryLogo from './Assets/Logo/QRhungryLogo.png'
+
 const Footer = () => {
   return (
     <div className='Footer-Main-Wrapper'>
         <section className="Footer-Section">
             <div className="Footer-Section1-Wrapper">
                 <div className="Footer-Brand">
-                    <h1>QRhungry</h1>
+                    <img src={QRhungryLogo} />
                 </div>
                 <div className="Footer-Menu-Main-Wrapper">
                     <div className="Footer-Menu-Wrapper">
@@ -34,7 +36,7 @@ const Footer = () => {
             </div>
             <div className="Footer-Section2-Wrapper">
                 <div className="Footer-Copyright">
-                    <p>© 2023 QRhungry.All rights reserved</p>
+                    <p>© 2024 QRhungry.All rights reserved</p>
                 </div>
                 <div className="Footer-Terms">
                     <Link to="/Terms">Terms of Service</Link>
