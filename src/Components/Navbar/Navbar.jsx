@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import QRhungryLogo from './Assets/Logo/QRhungryLogo.png'
 
 const Navbar = () => {
+
   return (
     <div className='Nav-Main-Wrapper'>
         <section className='Nav-Section'>
@@ -19,8 +20,8 @@ const Navbar = () => {
                 <a href="">Donate</a>
             </div>
             <div className="Nav-Button-Wrapper">
-              <button id='Signin'>Sign In</button>
-              <button id='Signup'>Sign Up</button>
+              <button id='Signin'><Link to="Signin">Sign In</Link></button>
+              <button id='Signup'><Link to="/Signup">Sign Up</Link></button>
             </div>
         </section>
     </div>

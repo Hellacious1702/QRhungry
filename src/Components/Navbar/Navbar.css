@@ -50,3 +50,16 @@
     background: #023edc;
     color: #fcfcff;
 }
+
+#Signup a{
+    background: #023edc;
+    color: #fcfcff;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: currentColor;
+}

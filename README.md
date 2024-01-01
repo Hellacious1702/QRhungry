@@ -9,6 +9,7 @@ QRhungry is your one-stop shop for creating QR codes that are as unique and flav
 Destination Delights: Send your scanners anywhere! Link your QR code to websites, social media profiles, videos, secret messages, and more.
 Color Craze: Unleash your inner color maestro! Choose from a vibrant palette or create your masterpiece with custom hex codes.
 Background Bonanza: Opt for a transparent background or design a custom backdrop to make your code pop.
+Reset Button: Clear the canvas and start afresh with ease!
 
 ## Built with Convenience, Seasoned with Innovation:
 
@@ -25,9 +26,9 @@ Run the development server: npm start
 
 ## Known Bugs (Under the Chef's Attention):
 
-Website doesn't scale to mobile view
-Some pages are still under construction (black hyperlinks)
-Buttons don't visually indicate active preferences
+Mobile Scaling: The website doesn't yet scale optimally for mobile views.
+Donate Page Issues: The donate page is currently not functional.
+Button Preferences: Buttons don't visually indicate active preferences.
 
 ## Contributing:
 
@@ -43,6 +44,6 @@ We're constantly working to expand QRhungry's features and capabilities. Stay tu
 
 ## Contact Us:
 
-Have questions or feedback? Reach out to us at varad0007@gmail.com.
+Have questions or feedback? Reach out to us at Varad0007@gmail.com .
 
 Let's create QR codes that are as irresistible as your content!

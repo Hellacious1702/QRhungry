@@ -18,8 +18,8 @@ const Footer = () => {
                         <h3>Platform</h3>
                         <div className="Footer-Menus">
                             <Link to="/QRhungry">Home</Link>
-                            <a href="">Features</a>
-                            <a href="">What's new</a>
+                            <Link to="/Features">Features</Link>
+                            <Link to="Whatsnew">What's new</Link>
                             <a href="">Donate</a>
                         </div>
                     </div>
@@ -29,7 +29,7 @@ const Footer = () => {
                             <Link to="/About">About</Link>
                             <a href="https://hellacious1702.github.io/portfolio/" target='_blank'>Creator's portfolio</a>
                             <a href="https://github.com/Hellacious1702" target='_blank'>Github</a>
-                            <a href="">Project repository</a>
+                            <a href="https://github.com/Hellacious1702/QRhungry" target='_blank'>Project repository</a>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.Account-Main-Wrapper{
+    background-color: #f8f7fd;
+    padding: 4% 4%;
+}
+
+.Account-Section{
+    display: flex;
+    justify-content: center;
+}
+
+.Account-Card{
+    background-color: #fff;
+    padding: 4% 6%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.Signin-Main-Wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+.Signin-Form-Wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+.Signin-Header h1{
+    font-size: 2em;
+}
+
+.Signin-Inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.Signin-Inputs input{
+    padding: 1em;
+    outline: none;
+    border: 1px solid #4e79e7;
+    border-radius: 10px;
+    width: 30em;
+}
+
+#SigninButton{
+    outline: none;
+    border: none;
+    padding: 1em 2em;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #023edc;
+}
+
+#SigninButton{
+    text-decoration: none;
+    color: #fcfcff;
+}
+
+.Signin-Footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.Signin-Footer p{
+    font-size: 1em;
+    color: #9d9d9f;
+}
+
+.Signin-Footer span{
+    font-size: 1em;
+    cursor: pointer;
+    color: #023edc;
+}

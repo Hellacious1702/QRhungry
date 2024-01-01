@@ -10,7 +10,7 @@ const Section1 = () => {
             <h1>Generate and Publish <br /> <span>Dynamic</span> QR Codes.</h1>
           </div>
           <div className="Section1-Paragraph">
-            <p>QRHungry is a dynamic QR Code Generator . It Allows user to easily create customized QR Code for sharing and embedding on their website. <br /> A Project By <span>Varad Sandeep Naik</span></p>
+            <p>QRHungry is a dynamic QR Code Generator . It Allows user to easily create customized QR Code for sharing and embedding on their website. <br /> A Project By <a href="https://github.com/Hellacious1702/" target='_blank'>Varad Sandeep Naik</a></p>
           </div>
           <div className="Section1-Buttons">
             <button id='GetStarted'>Get Started</button>

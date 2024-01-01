@@ -19,7 +19,7 @@ const GenerateQR = () => {
     const [userSize,setUserSize] = useState("");
     const [userColor,setUserColor] = useState("000");
     const [userBGColor,setUserBGColor] = useState("fff");
-    const [userMargin,setUserMargin] = useState("0");
+    const [userMargin,setUserMargin] = useState(0);
     const [destination,setDestination] = useState("");
     const [destinationTilte,setDestinationTitle] = useState("Website URL");
     const [inputType,setInputType] = useState("Text");
@@ -120,6 +120,7 @@ const GenerateQR = () => {
 
         <div className="GenerateQR-Buttons">
           <button id='DownloadButton'><a href={QrAPIDownload}>Download Your QR</a></button>
+          <button id='ResetButton' onClick={() => {setUserInput("https://github.com/Hellacious1702/");setUserSize("");setUserColor("000");setUserBGColor("fff");setUserMargin(0);setDestination("");setDestination("");setDestinationTitle("Website URL");setInputType("Text")}}><a>Reset QR</a></button>
         </div>
       </section>
     </div>
